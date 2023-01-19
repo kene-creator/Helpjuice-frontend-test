@@ -30,6 +30,7 @@ const AddBlock = (props) => {
         <button
           className="p-3 flex w-full items-center justify-start"
           type="button"
+          onClick={() => props.callback(false)}
         >
           <div className="font-serif text-[2rem] text-[#a4aab4] basis-[20%]">
             T
