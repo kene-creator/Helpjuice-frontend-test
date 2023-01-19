@@ -9,7 +9,7 @@
 
 ## Live Link
 
-[Live](https://wasabi-ltd.netlify.app/)
+[Live](helpjuice-frontendtest-kene.netlify.app)
 
 ## Getting Started
 
