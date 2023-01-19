@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadNav component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex_between nav"
+      >
+        <div
+          class="flex_center"
+        >
+          <div>
+            <svg
+              class="arrow"
+            >
+              <use
+                xlink:href="icons.svg#icon-angle-double-right"
+              />
+            </svg>
+          </div>
+          <div
+            class="flex_center"
+          >
+            <svg
+              class="book_open"
+            >
+              <use
+                xlink:href="icons.svg#icon-book-open"
+              />
+            </svg>
+            <div
+              class="flex"
+            >
+              <a
+                class="text-[#a4aab4] ml-2 mr-2 border-b border-[#a4aab4] text-[0.7rem]"
+                href="#"
+              >
+                Main
+              </a>
+              <span
+                class="text-[#a4aab4] text-[0.7rem]"
+              >
+                /
+              </span>
+              <p
+                class="text-[#a4aab4] mx-2 text-[0.7rem]"
+              >
+                Getting Started
+              </p>
+              <span
+                class="text-[#a4aab4] text-[0.7rem]"
+              >
+                /
+              </span>
+              <p
+                class="text-[#a4aab4] mx-2 text-[0.7rem]"
+              >
+                Front end development test
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex justify-center items-center"
+        >
+          <div
+            class="flex mr-4"
+          >
+            <svg
+              class="book_open"
+            >
+              <use
+                xlink:href="icons.svg#icon-lock"
+              />
+            </svg>
+            <p
+              class="text-[#a4aab4] mx-2 text-[0.7rem]"
+            >
+              Editing
+            </p>
+          </div>
+          <span
+            class="text-[#a4aab4] text-[1rem]"
+          >
+            |
+          </span>
+          <div
+            class="flex justify-center items-center"
+          >
+            <p
+              class="text-[0.9rem] text-[#3b6aac] mx-2 font-semibold"
+            >
+              Publish Space
+            </p>
+            <svg
+              class="rotate-[-90deg] w-[1rem] h-[1rem] fill-[#3b6aac]"
+            >
+              <use
+                xlink:href="icons.svg#icon-chevron-left11"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex_between nav"
+    >
+      <div
+        class="flex_center"
+      >
+        <div>
+          <svg
+            class="arrow"
+          >
+            <use
+              xlink:href="icons.svg#icon-angle-double-right"
+            />
+          </svg>
+        </div>
+        <div
+          class="flex_center"
+        >
+          <svg
+            class="book_open"
+          >
+            <use
+              xlink:href="icons.svg#icon-book-open"
+            />
+          </svg>
+          <div
+            class="flex"
+          >
+            <a
+              class="text-[#a4aab4] ml-2 mr-2 border-b border-[#a4aab4] text-[0.7rem]"
+              href="#"
+            >
+              Main
+            </a>
+            <span
+              class="text-[#a4aab4] text-[0.7rem]"
+            >
+              /
+            </span>
+            <p
+              class="text-[#a4aab4] mx-2 text-[0.7rem]"
+            >
+              Getting Started
+            </p>
+            <span
+              class="text-[#a4aab4] text-[0.7rem]"
+            >
+              /
+            </span>
+            <p
+              class="text-[#a4aab4] mx-2 text-[0.7rem]"
+            >
+              Front end development test
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center items-center"
+      >
+        <div
+          class="flex mr-4"
+        >
+          <svg
+            class="book_open"
+          >
+            <use
+              xlink:href="icons.svg#icon-lock"
+            />
+          </svg>
+          <p
+            class="text-[#a4aab4] mx-2 text-[0.7rem]"
+          >
+            Editing
+          </p>
+        </div>
+        <span
+          class="text-[#a4aab4] text-[1rem]"
+        >
+          |
+        </span>
+        <div
+          class="flex justify-center items-center"
+        >
+          <p
+            class="text-[0.9rem] text-[#3b6aac] mx-2 font-semibold"
+          >
+            Publish Space
+          </p>
+          <svg
+            class="rotate-[-90deg] w-[1rem] h-[1rem] fill-[#3b6aac]"
+          >
+            <use
+              xlink:href="icons.svg#icon-chevron-left11"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
