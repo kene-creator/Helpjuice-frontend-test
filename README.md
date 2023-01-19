@@ -9,7 +9,7 @@
 
 ## Live Link
 
-[Live](helpjuice-frontendtest-kene.netlify.app)
+[Live](https://helpjuice-frontendtest-kene.netlify.app/)
 
 ## Getting Started
 
