@@ -34,7 +34,6 @@ const Textarea = () => {
     }
   };
 
-  console.log(enterPressed, header, text);
   return (
     <div>
       <div>
