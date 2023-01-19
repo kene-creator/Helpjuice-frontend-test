@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea should change placeholder when Enter is pressed 1`] = `
+<textarea
+  class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
+  cols="30"
+  id=""
+  name=""
+  placeholder="Now this is normal text. All I had to is press / +1, and then type my text and hit Enter/Return"
+  rows="10"
+/>
+`;
+
+exports[`Textarea should change textarea value when Enter is pressed 1`] = `
+<textarea
+  class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
+  cols="30"
+  id=""
+  name=""
+  placeholder="Now this is normal text. All I had to is press / +1, and then type my text and hit Enter/Return"
+  rows="10"
+/>
+`;
+
+exports[`Textarea should open modal when /1 is typed 1`] = `
+<p
+  class="font-bold text-[1rem]"
+>
+  Add Block
+</p>
+`;
+
+exports[`Textarea should render textarea 1`] = `
+<textarea
+  class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
+  cols="30"
+  id=""
+  name=""
+  placeholder="Type / for blocks, @ to link docs to people"
+  rows="10"
+/>
+`;

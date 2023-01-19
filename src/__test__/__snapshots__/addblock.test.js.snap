@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddBlock component 1`] = `
+<p
+  class="text-left font-semibold text-[1rem]"
+>
+  Heading 1
+</p>
+`;
+
+exports[`AddBlock component 2`] = `
+<p
+  class="text-left font-semibold text-[1rem]"
+>
+  Expendable Heading 1
+</p>
+`;

@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab component should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex justify-between items-center w-[50%] h-[3rem] border border-[#a4aab4] mx-auto mt-12 rounded-md"
+      >
+        <div
+          class="flex justify-center items-center"
+        >
+          <p
+            class="pt-[0.3rem] px-[0.6rem] ml-2 rounded-md bg-[#d9f9e6] text-[#347659] text-lg font-medium text-center"
+          >
+            P
+          </p>
+          <span
+            class="text-[#a4aab4] text-[1rem] mx-2"
+          >
+            |
+          </span>
+          <svg
+            class="rotate-[-90deg] w-[1rem] h-[1.5rem] fill-[#a4aab4]"
+          >
+            <use
+              xlink:href="icons.svg#icon-clock"
+            />
+          </svg>
+          <p
+            class="text-[#a4aab4] ml-[0.2rem] text-[0.9rem]"
+          >
+            0min
+          </p>
+          <span
+            class="text-[#a4aab4] text-[1rem] mx-2"
+          >
+            |
+          </span>
+          <img
+            alt="avatar"
+            class="w-[2rem]"
+            src="avatar.png"
+          />
+          <span
+            class="text-[#a4aab4] text-[1rem] mx-2"
+          >
+            |
+          </span>
+          <svg
+            class="w-[1rem] h-[1.5rem] fill-[#a4aab4]"
+          >
+            <use
+              xlink:href="icons.svg#icon-arrow-down-left"
+            />
+          </svg>
+          <p
+            class="text-[#a4aab4] ml-[0.2rem] text-[0.9rem]"
+          >
+            0
+          </p>
+        </div>
+        <div
+          class="flex justify-center items-center pr-2"
+        >
+          <svg
+            class="w-[1rem] h-[1.5rem] fill-[#a4aab4] mr-2"
+          >
+            <use
+              xlink:href="icons.svg#icon-check-circle"
+            />
+          </svg>
+          <svg
+            class="w-[1rem] h-[1.5rem] fill-[#43946c] mr-2"
+          >
+            <use
+              xlink:href="icons.svg#icon-cloud"
+            />
+          </svg>
+          <svg
+            class="w-[1rem] h-[1.5rem] fill-[#121212]"
+          >
+            <use
+              xlink:href="icons.svg#icon-dots-horizontal-triple"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex justify-between items-center w-[50%] h-[3rem] border border-[#a4aab4] mx-auto mt-12 rounded-md"
+    >
+      <div
+        class="flex justify-center items-center"
+      >
+        <p
+          class="pt-[0.3rem] px-[0.6rem] ml-2 rounded-md bg-[#d9f9e6] text-[#347659] text-lg font-medium text-center"
+        >
+          P
+        </p>
+        <span
+          class="text-[#a4aab4] text-[1rem] mx-2"
+        >
+          |
+        </span>
+        <svg
+          class="rotate-[-90deg] w-[1rem] h-[1.5rem] fill-[#a4aab4]"
+        >
+          <use
+            xlink:href="icons.svg#icon-clock"
+          />
+        </svg>
+        <p
+          class="text-[#a4aab4] ml-[0.2rem] text-[0.9rem]"
+        >
+          0min
+        </p>
+        <span
+          class="text-[#a4aab4] text-[1rem] mx-2"
+        >
+          |
+        </span>
+        <img
+          alt="avatar"
+          class="w-[2rem]"
+          src="avatar.png"
+        />
+        <span
+          class="text-[#a4aab4] text-[1rem] mx-2"
+        >
+          |
+        </span>
+        <svg
+          class="w-[1rem] h-[1.5rem] fill-[#a4aab4]"
+        >
+          <use
+            xlink:href="icons.svg#icon-arrow-down-left"
+          />
+        </svg>
+        <p
+          class="text-[#a4aab4] ml-[0.2rem] text-[0.9rem]"
+        >
+          0
+        </p>
+      </div>
+      <div
+        class="flex justify-center items-center pr-2"
+      >
+        <svg
+          class="w-[1rem] h-[1.5rem] fill-[#a4aab4] mr-2"
+        >
+          <use
+            xlink:href="icons.svg#icon-check-circle"
+          />
+        </svg>
+        <svg
+          class="w-[1rem] h-[1.5rem] fill-[#43946c] mr-2"
+        >
+          <use
+            xlink:href="icons.svg#icon-cloud"
+          />
+        </svg>
+        <svg
+          class="w-[1rem] h-[1.5rem] fill-[#121212]"
+        >
+          <use
+            xlink:href="icons.svg#icon-dots-horizontal-triple"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
