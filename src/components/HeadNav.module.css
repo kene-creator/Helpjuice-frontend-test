@@ -1,0 +1,20 @@
+.arrow {
+  fill: #7e8e8f;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.book_open {
+  fill: #a4aab4;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 1rem;
+}
+
+.nav {
+  margin: 0.5rem 1rem 0 1rem;
+}
+
+.nav_p {
+  font-size: 1rem;
+}
