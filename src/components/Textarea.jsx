@@ -28,16 +28,19 @@ const Textarea = () => {
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       setEnterPressed((prevState) => !prevState);
+      setOpenModal(false);
+      setHeader(text);
       setext('');
     }
   };
 
+  console.log(enterPressed, header, text);
   return (
     <div>
       <div>
         {enterPressed && (
           <h1 className="text-[2.5rem] font-bold flex justify items-center w-[50%] mx-auto mt-4">
-            {header}
+            {header.substring(2)}
           </h1>
         )}
       </div>
@@ -47,7 +50,9 @@ const Textarea = () => {
           id=""
           cols="30"
           rows="10"
-          className="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
+          className={`relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg ${
+            !placeholder ? 'header_placeholder' : ''
+          }`}
           onChange={placeholder ? handleChange : handleHeaderChange}
           onKeyDown={handleKeyDown}
           placeholder={`${
@@ -76,7 +81,9 @@ const Textarea = () => {
         ></textarea>
       )}
       <div className="absolute top-[20rem] left-[15rem]">
-        {openModal && <AddBlock callback={setPlaceholder} />}
+        {openModal && (
+          <AddBlock callback={setPlaceholder} visible={placeholder} />
+        )}
       </div>
     </div>
   );

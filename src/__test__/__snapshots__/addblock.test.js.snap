@@ -15,3 +15,220 @@ exports[`AddBlock component 2`] = `
   Expendable Heading 1
 </p>
 `;
+
+exports[`AddBlock renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-[17rem] h-[20rem] shadow-gray-500 shadow-lg bg-white ml-[4rem] mt-[3rem] mb-4"
+      >
+        <div
+          class="p-4"
+        >
+          <p
+            class="font-bold text-[1rem]"
+          >
+            Add Block
+          </p>
+          <p
+            class="text-[0.8rem] text-[#a4aab4]"
+          >
+            Keep trying to filter, or escape to exit
+          </p>
+          <p
+            class="text-[#8a8c90] mt-3 text-[1rem]"
+          >
+            Filtering Keyword
+            <span
+              class="bg-[#3b6aac] py-1 px-1 text-white rounded-sm text-sm ml-2"
+            >
+              1
+            </span>
+          </p>
+        </div>
+        <div>
+          <button
+            class="p-3 flex w-full items-center justify-start bg-[#a4aab45e]"
+            type="button"
+          >
+            <div
+              class="font-serif text-[2rem] text-[#a4aab4] basis-[20%]"
+            >
+              T
+            </div>
+            <div>
+              <p
+                class="text-left font-semibold text-[1rem]"
+              >
+                Heading 1
+              </p>
+              <p
+                class="text-sm text-[#8a8c90]"
+              >
+                Shortcut: type # + space
+              </p>
+            </div>
+          </button>
+          <button
+            class="p-3 flex w-full items-center justify-start"
+            type="button"
+          >
+            <div
+              class="font-serif text-[2rem] text-[#a4aab4] basis-[20%]"
+            >
+              T
+            </div>
+            <div>
+              <p
+                class="text-left font-semibold text-[1rem]"
+              >
+                Expendable Heading 1
+              </p>
+              <p
+                class="text-sm text-[#8a8c90]"
+              >
+                Shortcut: type
+                &gt;
+                &gt;
+                 # + space
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-[17rem] h-[20rem] shadow-gray-500 shadow-lg bg-white ml-[4rem] mt-[3rem] mb-4"
+    >
+      <div
+        class="p-4"
+      >
+        <p
+          class="font-bold text-[1rem]"
+        >
+          Add Block
+        </p>
+        <p
+          class="text-[0.8rem] text-[#a4aab4]"
+        >
+          Keep trying to filter, or escape to exit
+        </p>
+        <p
+          class="text-[#8a8c90] mt-3 text-[1rem]"
+        >
+          Filtering Keyword
+          <span
+            class="bg-[#3b6aac] py-1 px-1 text-white rounded-sm text-sm ml-2"
+          >
+            1
+          </span>
+        </p>
+      </div>
+      <div>
+        <button
+          class="p-3 flex w-full items-center justify-start bg-[#a4aab45e]"
+          type="button"
+        >
+          <div
+            class="font-serif text-[2rem] text-[#a4aab4] basis-[20%]"
+          >
+            T
+          </div>
+          <div>
+            <p
+              class="text-left font-semibold text-[1rem]"
+            >
+              Heading 1
+            </p>
+            <p
+              class="text-sm text-[#8a8c90]"
+            >
+              Shortcut: type # + space
+            </p>
+          </div>
+        </button>
+        <button
+          class="p-3 flex w-full items-center justify-start"
+          type="button"
+        >
+          <div
+            class="font-serif text-[2rem] text-[#a4aab4] basis-[20%]"
+          >
+            T
+          </div>
+          <div>
+            <p
+              class="text-left font-semibold text-[1rem]"
+            >
+              Expendable Heading 1
+            </p>
+            <p
+              class="text-sm text-[#8a8c90]"
+            >
+              Shortcut: type
+              &gt;
+              &gt;
+               # + space
+            </p>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

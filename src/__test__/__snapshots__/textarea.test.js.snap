@@ -1,28 +1,97 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Textarea should change placeholder when Enter is pressed 1`] = `
-<textarea
-  class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
-  cols="30"
-  id=""
-  name=""
-  placeholder="Now this is normal text. All I had to is press / +1, and then type my text and hit Enter/Return"
-  rows="10"
-/>
+exports[`Textarea component renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div />
+        <textarea
+          class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg "
+          cols="30"
+          id=""
+          name=""
+          placeholder="Type / for blocks, @ to link docs to people"
+          rows="10"
+        />
+        <div
+          class="absolute top-[20rem] left-[15rem]"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div />
+      <textarea
+        class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg "
+        cols="30"
+        id=""
+        name=""
+        placeholder="Type / for blocks, @ to link docs to people"
+        rows="10"
+      />
+      <div
+        class="absolute top-[20rem] left-[15rem]"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Textarea should change textarea value when Enter is pressed 1`] = `
-<textarea
-  class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
-  cols="30"
-  id=""
-  name=""
-  placeholder="Now this is normal text. All I had to is press / +1, and then type my text and hit Enter/Return"
-  rows="10"
-/>
-`;
-
-exports[`Textarea should open modal when /1 is typed 1`] = `
+exports[`Textarea displays the add block when /1 is typed 1`] = `
 <p
   class="font-bold text-[1rem]"
 >
@@ -30,13 +99,10 @@ exports[`Textarea should open modal when /1 is typed 1`] = `
 </p>
 `;
 
-exports[`Textarea should render textarea 1`] = `
-<textarea
-  class="relative bg-white w-[50%] h-[50vh] mx-auto flex justify-center items-center mt-6 textarea_shadow placeholder:text-[1rem] text-lg"
-  cols="30"
-  id=""
-  name=""
-  placeholder="Type / for blocks, @ to link docs to people"
-  rows="10"
-/>
+exports[`Textarea hides the add block when the callback is triggered 1`] = `
+<p
+  class="font-bold text-[1rem]"
+>
+  Add Block
+</p>
 `;

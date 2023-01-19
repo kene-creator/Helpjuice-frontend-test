@@ -39,3 +39,7 @@ body {
 .textarea_shadow:focus {
   outline: none;
 }
+
+.header_placeholder::placeholder {
+  font-size: 3rem;
+}
